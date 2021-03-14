@@ -1,6 +1,6 @@
-# Election_Analysis
-##**Project Overview**
-
+# Election_Analysis #
+## **Project Overview** #
+ 
 A Colorado Board of Elections employee has given us the following task to complete the election audit of a recent local congressional election.
 
 1.Calculate the total number of votes cast.
@@ -9,11 +9,11 @@ A Colorado Board of Elections employee has given us the following task to comple
 4.Calculate the percentage of votes each candidate won.
 5.Determine the winner of the election based on the popular vote.
 
-##**Resources**
+## **Resources** ##
 Data Source: election_results.csv
 Software: Python 3.7.4, Visual Studio Code 1.54.1
 
-##**Summary**
+## **Summary** ##
 
 The anlaysis of the election show that:
 
@@ -29,6 +29,6 @@ The anlaysis of the election show that:
  *The Winner of the election was:
   *Diana Degette who received 73.8% of the vote with 272,892 votes.
   
-##**Challenge Overview**
+## **Challenge Overview** ##
 
-##**Challenge Summary**
+## **Challenge Summary** ##
