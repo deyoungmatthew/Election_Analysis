@@ -10,8 +10,8 @@
 ### 5.Determine the winner of the election based on the popular vote. ###
 
 ## **Resources** ##
-*Data Source: election_results.csv
-*Software: Python 3.7.4, Visual Studio Code 1.54.1
+* Data Source: election_results.csv
+* Software: Python 3.7.4, Visual Studio Code 1.54.1
 
 ## **Summary** ##
 
@@ -19,15 +19,15 @@ The anlaysis of the election show that:
 
 * There were 369,711 votes cast in the election.
 * There cadidates were:
-  *Charles Casper Stockham
-  *Diana Degette
-  *Raymon Athony Doane
-*The candidate results were:
-  *Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
-  *Diana Degette received 73.8% of the vote and 272,892 number of votes.
-  *Raymon Athony Doane received 3.1% of the vote and 11,606 number of votes.
- *The Winner of the election was:
-  *Diana Degette who received 73.8% of the vote with 272,892 votes.
+  * Charles Casper Stockham
+  * Diana Degette
+  * Raymon Athony Doane
+* The candidate results were:
+  * Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
+  * Diana Degette received 73.8% of the vote and 272,892 number of votes.
+  * Raymon Athony Doane received 3.1% of the vote and 11,606 number of votes.
+  * The Winner of the election was:
+  * Diana Degette who received 73.8% of the vote with 272,892 votes.
   
 ## **Challenge Overview** ##
 
