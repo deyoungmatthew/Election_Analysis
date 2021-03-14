@@ -42,9 +42,10 @@ with open(file_to_load) as election_data:
 
         election_results = (
             f"Election Results\n"
-            f"_______________________\n"
+            f"-------------------------\n"
             f"Total Votes: {total_votes:,}\n"
-            f"________________________")
+            f"-------------------------\n")
+        
         print(election_results, end="")
 
         txt_file.write(election_results)
@@ -53,8 +54,12 @@ with open(file_to_load) as election_data:
             votes = candidate_votes[candidate_name]
             vote_percentage = float(votes) / float(total_votes) * 100
         
-            #print (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
-        
+            candidates_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+
+            print(candidates_results)
+
+            txt_file.write(candidates_results)
+
             if (votes > winning_count) and (vote_percentage > winning_percentage):
                 winning_count = votes
                 winning_percentage = vote_percentage
@@ -67,4 +72,6 @@ with open(file_to_load) as election_data:
             f"Winning Vote Count: {winning_count:,}\n"
             f"Winning Percentage: {winning_percentage:.1f}%\n"
             f"-------------------------\n")
-        #print(winning_candidate_summary)
+        
+        print(winning_candidate_summary)
+        txt_file.write(winning_candidate_summary)
