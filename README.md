@@ -36,6 +36,6 @@ The county analysis of the election shows that:
 * The Winner of the election was:
   * Diana Degette who received 73.8% of the vote with 272,892 votes.
 
-## **Election Audit Summary ** ##
+## **Election Audit Summary** ##
 
 As the code automatically pulls the county and candidate items from the rows of data, the code could easily be used for any congressional district, or with the addition of district numbers, could be used for the entire state.  With the addition of information such as state data, we could use this code for not only one district in Colorado, but the entire US.  If a date and time stamp data point could be added, this information could also be utilitized to determine vote patterns by district to help better staff polling stations based on previous demand.
